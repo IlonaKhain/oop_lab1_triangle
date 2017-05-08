@@ -1,4 +1,3 @@
-﻿  OOP_lab1_triangle.cpp
-e:\2 курс\ооп\oop_lab1_triangle\oop_lab1_triangle\oop_lab1_triangle.cpp(80): warning C4101: exp: неиспользованная локальная переменная
+﻿  LINK : не найден или не выполнена сборка E:\2 курс\ООП\OOP_lab1_triangle\Debug\OOP_lab1_triangle.exe при последней инкрементной компоновке; выполняется полная компоновка
   OOP_lab1_triangle.vcxproj -> E:\2 курс\ООП\OOP_lab1_triangle\Debug\OOP_lab1_triangle.exe
   OOP_lab1_triangle.vcxproj -> E:\2 курс\ООП\OOP_lab1_triangle\Debug\OOP_lab1_triangle.pdb (Full PDB)

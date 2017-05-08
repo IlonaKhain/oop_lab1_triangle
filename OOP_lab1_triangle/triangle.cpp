@@ -17,7 +17,7 @@ double Triangle::HalfPerimetr() {
 	return (edge1 + edge2 + hypotenuse) / 2;
 }
 
-int RightAngle() {
+int Triangle::RightAngle() {
 	return 90;
 }
 
@@ -31,11 +31,23 @@ double  Triangle::Angle3() {
 }
 
 double Triangle::EdgeSizeUp( double percent, int edge) {
-	if (edge == 1){return edge1 +( edge1 *percent / 100);}
-	if (edge ==2){ return edge2 + (edge2 *percent / 100); }
+	if (edge == 1) {
+		edge1 = edge1 + (edge1 *percent / 100);
+		return edge1;
+	}
+	if (edge == 2) {
+		edge2 = edge2 + (edge2 *percent / 100);
+		return edge2;
+	}
 }
 
 double Triangle::EdgeSizeDown( double percent, int edge) {
-	if (edge==1){ return edge1 - (edge1*percent / 100); }
-	if (edge==2) { return edge2 - (edge2*percent / 100); }
+	if (edge == 1) {
+		edge1 = edge1 - (edge1 *percent / 100);
+		return edge1;
+	}
+	if (edge == 2) {
+		edge2 = edge2 - (edge2 *percent / 100);
+		return edge2;
+	}
 }
